@@ -1,0 +1,16 @@
+git init 
+cat > file1.txt
+cat > file2.txt
+cat > file3.txt
+cat > file4.txt
+git add file2.txt
+git add file3.txt
+git add file4.txt
+
+git commit file2.txt -m "commit file 2"
+git commit file3.txt -m "commit file 3"
+
+cat >> file3.txt
+addThis
+
+git add file3.txt
